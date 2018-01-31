@@ -24,7 +24,8 @@ namespace DownloadExample
         public void InitializeDownload()
         {
             File = CrossDownloadManager.Current.CreateDownloadFile (
-                "http://ipv4.download.thinkbroadband.com/10MB.zip"
+                "http://newlms.magtu.ru/webservice/pluginfile.php/782554/mod_resource/content/1/%D0%97%D0%B0%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BD%D0%B0%20%D0%BF%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D0%BA%D1%83%20%D0%BF.doc?forcedownload=1&token=05b32f186215d7e3a7de2cc003acfffb"
+                //"http://ipv4.download.thinkbroadband.com/10MB.zip"
                 // If you need, you can add a dictionary of headers you need.
                 //, new Dictionary<string, string> {
                 //    { "Cookie", "LetMeDownload=1;" },
